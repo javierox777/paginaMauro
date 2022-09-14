@@ -1,0 +1,741 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+	<title>Busing</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Webestica.com">
+	<meta name="description" content="Creative Multipurpose Bootstrap Template">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="assets/images/favicon.ico">
+
+	<!-- Google Font -->
+	<link
+		href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900%7CPlayfair+Display:400,400i,700,700i%7CRoboto:400,400i,500,700"
+		rel="stylesheet">
+
+	<!-- Plugins CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="assets/vendor/themify-icons/css/themify-icons.css" />
+	<link rel="stylesheet" type="text/css" href="assets/vendor/animate/animate.min.css" />
+	<link rel="stylesheet" type="text/css" href="assets/vendor/fancybox/css/jquery.fancybox.min.css" />
+	<link rel="stylesheet" type="text/css" href="assets/vendor/owlcarousel/css/owl.carousel.min.css" />
+	<link rel="stylesheet" type="text/css" href="assets/vendor/swiper/css/swiper.min.css" />
+
+	<!-- Theme CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+	<style>
+		.t {
+			border: 1px solid red;
+		}
+
+		#menu-item {
+			font-size: 16px;
+		}
+
+		/* Small devices (landscape phones, 576px and up) */
+		@media screen and (max-width: 480px) {
+			.logotipo {
+				width: 200px;
+			}
+		}
+	</style>
+
+</head>
+
+<body>
+	<div class="preloader">
+		<img src="assets/images/preloader.svg" alt="Pre-loader">
+	</div>
+
+	<!-- =======================
+	header Start-->
+	<header class="header-static navbar-sticky navbar-light">
+		<!-- Search -->
+		<div class="top-search collapse bg-light" id="search-open" data-parent="#search">
+			<div class="container">
+				<div class="row position-relative">
+					<div class="col-md-8 mx-auto py-5">
+						<form>
+							<div class="input-group">
+								<input class="form-control border-radius-right-0 border-right-0" type="text"
+									name="search" autofocus placeholder="Que estás buscando?">
+								<button type="button" class="btn btn-grad border-radius-left-0 mb-0">Buscar</button>
+							</div>
+						</form>
+						<!-- <p class="small mt-2 mb-0"><strong></strong>Ingresa una palabra</p> -->
+					</div>
+					<a class="position-absolute top-0 right-0 mt-3 mr-3" data-toggle="collapse" href="#search-open"><i
+							class="fa fa-window-close"></i></a>
+				</div>
+			</div>
+		</div>
+		<!-- End Search -->
+
+		<!-- Navbar top start-->
+		<div class="navbar-top d-none d-lg-block">
+			<div class="container">
+				<div class="d-flex justify-content-between align-items-center">
+					<!-- navbar top Left-->
+					<div class="d-flex align-items-center">
+						<!-- Top info -->
+						<ul class="nav list-unstyled">
+							<li class="nav-item mr-3">
+								<a class="navbar-link" href="#"
+									id="menu-item"><strong>Teléfono:</strong>(+569)33017558</a>
+							</li>
+							<li class="nav-item mr-3">
+								<a class="navbar-link" href="#"
+									id="menu-item"><strong>Correo:</strong>contacto@busing.cl</a>
+							</li>
+						</ul>
+					</div>
+
+					<!-- navbar top Right-->
+					<div class="d-flex align-items-center">
+						<!-- top link -->
+						<ul class="nav">
+							<li class="nav-item">
+								<a class="nav-link" href="contact.html" id="menu-item">Contacto</a>
+							</li>
+						</ul>
+						<!-- top social -->
+						<ul class="social-icons">
+							<li class="social-icons-item social-facebook m-0">
+								<a class="social-icons-link w-auto px-2" href="#" id="menu-item"><i
+										class="fa fa-facebook"></i></a>
+							</li>
+							<li class="social-icons-item social-instagram m-0">
+								<a class="social-icons-link w-auto px-2" href="#" id="menu-item"><i
+										class="fa fa-instagram"></i></a>
+							</li>
+							<li class="social-icons-item social-twitter m-0">
+								<a class="social-icons-link w-auto pl-2" href="#" id="menu-item"><i
+										class="fa fa-twitter"></i></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Navbar top End-->
+
+		<!-- Logo Nav Start -->
+		<nav class="navbar navbar-expand-lg">
+			<div class="container">
+				<!-- Logo -->
+				<a class="navbar-brand pt-0 pb-0" href="index.html">
+					<!-- SVG Logo Start -->
+					<img src="assets/images/busing/logobusing.png" width="300" class="d-inline-block align-top logotipo"
+						alt="">
+					<!-- SVG Logo End -->
+				</a>
+				<!-- Menu opener button -->
+				<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+					data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"> </span>
+				</button>
+				<!-- Main Menu Start -->
+				<div class="collapse navbar-collapse" id="navbarCollapse">
+					<ul class="navbar-nav ml-md-auto text-center">
+						<a href="index.html" class="nav-link" id="menu-item">Inicio</a>
+						<a href="about.html" class="nav-link" id="menu-item">Sobre nosotros</a>
+						<a href="services.html" class="nav-link" id="menu-item">Servicios</a>
+						<a href="contact.html" class="nav-link" id="menu-item">Contacto</a>
+					</ul>
+				</div>
+				<!-- Main Menu End -->
+				<div class="navbar-nav">
+					<!-- item Search-->
+					<div class="nav-item search border-0 pl-3 pr-0 px-lg-2" id="search">
+						<a class="nav-link" data-toggle="collapse" href="#search-open" id="menu-item"><i
+								class="ti-search"> </i></a>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- =======================
+	header End-->
+
+	<!-- =======================
+	Banner innerpage -->
+	<div class="left bg-dark-grad pattern-overlay-1">
+		<div class="container">
+			<div class="row all-text-white">
+				<div class="col-md-12 align-self-center">
+					<h1 class="font-weight-bold display-4 display-md-1 mb-2 mb-md-n4 mt-9">Nuestros Servicios</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- =======================
+	Banner innerpage -->
+
+
+	<!-- =======================
+	service -->
+	<section class="service">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-md-4">
+					<div class="feature-box h-100 icon-grad">
+						<div class="feature-box-icon"><i class="ti-panel"></i></div>
+						<h3 class="feature-box-title">¿Qué hacemos?</h3>
+						<p class="feature-box-desc">Cada proyecto que realizamos es analizado y planificado desde un
+							inicio por un especializado equipo técnico que determina y optimiza todos los procesos del
+							<strong>movimiento de tierras</strong> de acuerdo a las necesidades de cada cliente.</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="feature-box h-100 icon-grad">
+						<div class="feature-box-icon"><i class="ti-package"></i></div>
+						<h3 class="feature-box-title">Servicios</h3>
+						<p class="feature-box-desc">Somos una empresa que presenta las máximas garantías cuando de
+							adaptarse a proyectos se trata, ofrecemos a nuestros clientes un servicio efectivo y
+							profesional a las actividades más comunes de excavación y transporte de material.</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="feature-box h-100 icon-grad">
+						<div class="feature-box-icon"><i class="ti-credit-card"></i></div>
+						<h3 class="feature-box-title">Experiencia</h3>
+						<p class="feature-box-desc">Realizamos movimiento de tierras, nuestra amplia experiencia nos
+							permite proveer servicios de alta calidad y valor añadido en proyectos de minería y obras
+							civiles. Estamos orgullosos de nuestro equipo humano, unido por valores como seguridad,
+							responsabilidad y satisfacción por un un gran trabajo realizado. </p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="feature-box h-100 icon-grad">
+						<div class="feature-box-icon"><i class="ti-layout-slider"></i></div>
+						<h3 class="feature-box-title">Historia</h3>
+						<p class="feature-box-desc">Nuestros ingenieros y transportistas le brindarán el mejor
+							asesoramiento y la mejor alternativa sobre cualquier incidencia que pudiese suponer un
+							retraso sobre los tiempos de entrega previstos.</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="feature-box h-100 icon-grad">
+						<div class="feature-box-icon"><i class="ti-wallet"></i></div>
+						<h3 class="feature-box-title">Nuestros servicios</h3>
+						<p class="feature-box-desc">Estudio y desarrollo de proyectos, asesorías y asistencia técnica.
+
+							Encauzamiento de ríos, enrocados y construcción de canales.
+
+							Construcción, mantención de caminos y nivelación de terrenos.
+
+							Transporte y logística
+
+							Movimiento de tierra en general
+
+							Enrocados y construcción de canales
+
+							Limpieza de pilas de lixiviación
+
+							Subsolados y terrazas
+
+							Camellones agrícolas</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="feature-box h-100 icon-grad">
+						<div class="feature-box-icon"><i class="ti-share-alt"></i></div>
+						<h3 class="feature-box-title">High Performance</h3>
+						<p class="feature-box-desc">Exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. <strong>$255.00</strong> pm Duis aute irure dolor in reprehenderit in voluptate
+							velit. </p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- =======================
+	service -->
+
+	<!-- =======================
+	process-advance -->
+	<section class="process-advance bg-light">
+		<div class="container">
+			<div class="row">
+				<!-- process 1 -->
+				<div class="col-sm-6 col-lg-3 text-center mb-4">
+					<div class="process-border"><span class="process-number bg-grad border-right">01</span></div>
+					<h5 class="my-3">Planning</h5>
+					<p>The initial step after getting the project is to discuss and plan the skills</p>
+				</div>
+				<!-- process 1 -->
+				<div class="col-sm-6 col-lg-3 text-center mb-4">
+					<div class="process-border"><span class="process-number bg-grad border-left border-right">02</span>
+					</div>
+					<h5 class="my-3">Designing</h5>
+					<p>After getting the project requirement, we start working on design</p>
+				</div>
+				<!-- process 1 -->
+				<div class="col-sm-6 col-lg-3 text-center mb-4">
+					<div class="process-border"><span class="process-number bg-grad border-left border-right">03</span>
+					</div>
+					<h5 class="my-3">Integration</h5>
+					<p>We test each individual activity and integrate them all together in a process.</p>
+				</div>
+				<!-- process 1 -->
+				<div class="col-sm-6 col-lg-3 text-center mb-4">
+					<div class="process-border"><span class="process-number bg-grad border-left">04</span></div>
+					<h5 class="my-3">Delivery</h5>
+					<p>We deliver the project and upload it to their web server after support maintenance.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- =======================
+	process-advance -->
+
+
+	<!-- =======================
+	Service block -->
+	<section class="service-block">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-lg-6 align-self-center">
+					<div class="title text-left pb-4 p-lg-0 ">
+						<h2>Nuestros servicios reflejan nuestro conocimiento y <span class="text-primary">comprensión
+								profunda</span> del proyecto.</h2>
+						<p>Wizixo; an innovative Internet marketing solutions company that offers comprehensive web
+							development, SMO services, SEO strategies and various other types of Internet marketing
+							related services. </p>
+						<div class="row">
+							<div class="col-6">
+								<ul class="list-group list-group-borderless list-group-icon-primary-bg">
+									<li class="list-group-item"><i class="fa fa-check"></i>Transporte y logística</li>
+									<li class="list-group-item"><i class="fa fa-check"></i>Movimiento de tierra en
+										general</li>
+									<li class="list-group-item"><i class="fa fa-check"></i> Enrocados y construcción de
+										canales</li>
+								</ul>
+							</div>
+							<div class="col-6">
+								<ul class="list-group list-group-borderless list-group-icon-primary-bg">
+									<li class="list-group-item"><i class="fa fa-check"></i>Limpieza de pilas de
+										lixiviación </li>
+									<li class="list-group-item"><i class="fa fa-check"></i>Subsolados y terrazas</li>
+									<li class="list-group-item"><i class="fa fa-check"></i>Camellones agrícolas</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-10 col-lg-6 mx-md-auto align-self-center">
+					<img class="img-fluid" src="assets/images/busing/servicios.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- =======================
+	Service block -->
+		<!-- =======================
+	Banner innerpage -->
+	<div class="innerpage-banner center bg-overlay-dark-7 py-7" style="background:url(assets/images/bg/04.jpg) no-repeat; background-size:cover; background-position: center center;">
+		<div class="container">
+			<div class="row all-text-white">
+				<div class="col-md-12 align-self-center">
+					<h1 class="innerpage-title">Nuestros portafolio de trabajos</h1>
+	
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- =======================
+	Banner innerpage -->
+	<!-- Portfolio -->	
+	<section class="portfolio portfolio-style-2 pb-0">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 p-0">
+					<div class="nav justify-content-center">
+						<ul class="nav-tabs nav-tabs-style-3 text-center px-2 p-md-0 m-0 mb-4">
+							<li class="nav-filter active" data-filter="*">Todos</li>
+							<li class="nav-filter" data-filter=".marketing">Servicios</li>
+							<li class="nav-filter" data-filter=".digital">Transporte</li>
+							<li class="nav-filter" data-filter=".photo">Otros</li>
+						</ul>
+					</div>
+					<div class="portfolio-wrap grid items-3 items-padding">
+						<!-- portfolio-card -->
+						<div class="portfolio-card isotope-item digital">
+							<div class="portfolio-card-body">
+								<div class="portfolio-card-header">
+									<img src="assets/images/busing/p1.jpg" alt="">
+								</div>
+								<div class="portfolio-card-footer">
+									<a class="full-screen" href="assets/images/busing/p1.jpg" data-fancybox="portfolio" data-caption="Fly in time"><i class="ti-fullscreen"></i></a>
+									<h6 class="info-title"><a href="#" title="">Caminos</a></h6>
+									<p>Donde fué?</p>
+								</div>
+							</div>
+						</div>
+						<!-- portfolio-card -->
+						<div class="portfolio-card isotope-item photo">
+							<div class="portfolio-card-body">
+								<div class="portfolio-card-header">
+									<img src="assets/images/busing/p2.jpg" alt="">
+								</div>
+								<div class="portfolio-card-footer">
+									<a class="full-screen" href="assets/images/busing/p2.jpg" data-fancybox="portfolio" data-caption="Waiting window"><i class="ti-fullscreen"></i></a>
+									<h6 class="info-title"><a href="#" title="">Caminos</a></h6>
+									<p>Donde fué?</p>
+								</div>
+							</div>
+						</div>
+						<!-- portfolio-card -->
+						<div class="portfolio-card isotope-item digital marketing">
+							<div class="portfolio-card-body">
+								<div class="portfolio-card-header">
+									<img src="assets/images/busing/p3.jpg" alt="">
+								</div>
+								<div class="portfolio-card-footer">
+									<a class="full-screen" href="assets/images/busing/p3.jpg" data-fancybox="portfolio" data-caption="Green Book"><i class="ti-fullscreen"></i></a>
+									<h6 class="info-title"><a href="#" title="">Caminos</a></h6>
+									<p>Donde fué?</p>
+								</div>
+							</div>
+						</div>
+						<!-- portfolio-card -->
+						<div class="portfolio-card isotope-item digital">
+							<div class="portfolio-card-body">
+								<div class="portfolio-card-header">
+									<img src="assets/images/busing/p4.jpg" alt="">
+								</div>
+								<div class="portfolio-card-footer">
+									<a class="full-screen" href="assets/images/busing/p4.jpg" data-fancybox="portfolio" data-caption="Reebok Sneakers"><i class="ti-fullscreen"></i></a>
+									<h6 class="info-title"><a href="#" title="">Nivelación</a></h6>
+									<p>Donde fué?</p>
+								</div>
+							</div>
+						</div>
+						<!-- portfolio-card -->
+						<div class="portfolio-card isotope-item photo">
+							<div class="portfolio-card-body">
+								<div class="portfolio-card-header">
+									<img src="assets/images/busing/p6.jpg" alt="">
+								</div>
+								<div class="portfolio-card-footer">
+									<a class="full-screen" href="assets/images/busing/p6.jpg" data-fancybox="portfolio" data-caption="Parking garage"><i class="ti-fullscreen"></i></a>
+									<h6 class="info-title"><a href="#" title="">Caminos</a></h6>
+									<p>Donde fué?</p>
+								</div>
+							</div>
+						</div>
+						<!-- portfolio-card -->
+						<div class="portfolio-card isotope-item digital marketing photo">
+							<div class="portfolio-card-body">
+								<div class="portfolio-card-header">
+									<img src="assets/images/busing/p7.jpg" alt="">
+								</div>
+								<div class="portfolio-card-footer">
+									<a class="full-screen" href="assets/images/busing/p7.jpg" data-fancybox="portfolio" data-caption="The Pink Chair"><i class="ti-fullscreen"></i></a>
+									<h6 class="info-title"><a href="#" title="">Canales</a></h6>
+									<p>Donde fué?</p>
+								</div>
+							</div>
+						</div>
+						<!-- portfolio-card -->
+						<div class="portfolio-card isotope-item photo marketing">
+							<div class="portfolio-card-body">
+								<div class="portfolio-card-header">
+									<img src="assets/images/busing/p8.jpg" alt="">
+								</div>
+								<div class="portfolio-card-footer">
+									<a class="full-screen" href="assets/images/busing/p8.jpg" data-fancybox="portfolio" data-caption="Black & white"><i class="ti-fullscreen"></i></a>
+									<h6 class="info-title"><a href="#" title="">Maquinaria</a></h6>
+									<p>Donde fué?</p>
+								</div>
+							</div>
+						</div>
+						<!-- portfolio-card -->
+						<div class="portfolio-card isotope-item digital marketing">
+							<div class="portfolio-card-body">
+								<div class="portfolio-card-header">
+									<img src="assets/images/busing/p9.jpg" alt="">
+								</div>
+								<div class="portfolio-card-footer">
+									<a class="full-screen" href="assets/images/busing/p9.jpg" data-fancybox="portfolio" data-caption="Catch the plane"><i class="ti-fullscreen"></i></a>
+									<h6 class="info-title"><a href="#" title="">Maquinaria</a></h6>
+									<p>Donde fué?</p>
+								</div>
+							</div>
+						</div>
+						<!-- portfolio-card -->
+						<div class="portfolio-card isotope-item digital marketing">
+							<div class="portfolio-card-body">
+								<div class="portfolio-card-header">
+									<img src="assets/images/busing/p10.jpg" alt="">
+								</div>
+								<div class="portfolio-card-footer">
+									<a class="full-screen" href="assets/images/busing/p10.jpg" data-fancybox="portfolio" data-caption="Nature book"><i class="ti-fullscreen"></i></a>
+									<h6 class="info-title"><a href="#" title="">Maquinaria</a></h6>
+									<p>Donde fué?</p>
+								</div>
+							</div>
+						</div>
+						<!-- portfolio-card -->
+						<div class="portfolio-card isotope-item marketing">
+							<div class="portfolio-card-body">
+								<div class="portfolio-card-header">
+									<img src="assets/images/busing/p11.jpg" alt="">
+								</div>
+								<div class="portfolio-card-footer">
+									<a class="full-screen" href="assets/images/busing/p11.jpg" data-fancybox="portfolio" data-caption="Book on desk"><i class="ti-fullscreen"></i></a>
+									<h6 class="info-title"><a href="#" title="">Nivelación</a></h6>
+									<p>Donde fué?</p>
+								</div>
+							</div>
+						</div>
+						<!-- portfolio-card -->
+						<div class="portfolio-card isotope-item digital">
+							<div class="portfolio-card-body">
+								<div class="portfolio-card-header">
+									<img src="assets/images/busing/p12.jpg" alt="">
+								</div>
+								<div class="portfolio-card-footer">
+									<a class="full-screen" href="assets/images/busing/p12.jpg" data-fancybox="portfolio" data-caption="Work desk"><i class="ti-fullscreen"></i></a>
+									<h6 class="info-title"><a href="#" title="">Nivelación</a></h6>
+									<p>Donde fué?</p>
+								</div>
+							</div>
+						</div>
+						<!-- portfolio-card -->
+						<div class="portfolio-card isotope-item photo">
+							<div class="portfolio-card-body">
+								<div class="portfolio-card-header">
+									<img src="assets/images/busing/p13.jpg" alt="">
+								</div>
+								<div class="portfolio-card-footer">
+									<a class="full-screen" href="assets/images/busing/p13.jpg" data-fancybox="portfolio" data-caption="Green Tree"><i class="ti-fullscreen"></i></a>
+									<h6 class="info-title"><a href="#" title="">Nivelación</a></h6>
+									<p>Donde fué?</p>
+								</div>
+							</div>
+						</div>
+						<!-- portfolio-card -->
+						<div class="portfolio-card isotope-item photo marketing">
+							<div class="portfolio-card-body">
+								<div class="portfolio-card-header">
+									<img src="assets/images/busing/p14.jpeg" alt="">
+								</div>
+								<div class="portfolio-card-footer">
+									<a class="full-screen" href="assets/images/busing/p14.jpeg" data-fancybox="portfolio" data-caption="Black & white"><i class="ti-fullscreen"></i></a>
+									<h6 class="info-title"><a href="#" title="">Caminos</a></h6>
+									<p>Donde fué?</p>
+								</div>
+							</div>
+						</div>
+						<!-- portfolio-card -->
+						<div class="portfolio-card isotope-item digital marketing">
+							<div class="portfolio-card-body">
+								<div class="portfolio-card-header">
+									<img src="assets/images/busing/p15.jpeg" alt="">
+								</div>
+								<div class="portfolio-card-footer">
+									<a class="full-screen" href="assets/images/busing/p15.jpeg" data-fancybox="portfolio" data-caption="Catch the plane"><i class="ti-fullscreen"></i></a>
+									<h6 class="info-title"><a href="#" title="">Proyecto</a></h6>
+									<p>Donde fué?</p>
+								</div>
+							</div>
+						</div>
+						<!-- portfolio-card -->
+						<div class="portfolio-card isotope-item digital marketing">
+							<div class="portfolio-card-body">
+								<div class="portfolio-card-header">
+									<img src="assets/images/busing/p16.jpeg" alt="">
+								</div>
+								<div class="portfolio-card-footer">
+									<a class="full-screen" href="assets/images/busing/p16.jpeg" data-fancybox="portfolio" data-caption="Nature book"><i class="ti-fullscreen"></i></a>
+									<h6 class="info-title"><a href="#" title="">Caminos</a></h6>
+									<p>Donde fué?</p>
+								</div>
+							</div>
+						</div>
+						<!-- portfolio-card -->
+						<div class="portfolio-card isotope-item marketing">
+							<div class="portfolio-card-body">
+								<div class="portfolio-card-header">
+									<img src="assets/images/busing/p17.jpeg" alt="">
+								</div>
+								<div class="portfolio-card-footer">
+									<a class="full-screen" href="assets/images/busing/p17.jpeg" data-fancybox="portfolio" data-caption="Book on desk"><i class="ti-fullscreen"></i></a>
+									<h6 class="info-title"><a href="#" title="">Nivelación</a></h6>
+									<p>Donde fué? </p>
+								</div>
+							</div>
+						</div>
+						<!-- portfolio-card -->
+						<div class="portfolio-card isotope-item digital">
+							<div class="portfolio-card-body">
+								<div class="portfolio-card-header">
+									<img src="assets/images/busing/p18.jpeg" alt="">
+								</div>
+								<div class="portfolio-card-footer">
+									<a class="full-screen" href="assets/images/busing/p18.jpeg" data-fancybox="portfolio" data-caption="Work desk"><i class="ti-fullscreen"></i></a>
+									<h6 class="info-title"><a href="#" title="">Nivelación</a></h6>
+									<p>Donde fué?</p>
+								</div>
+							</div>
+						</div>
+						<!-- portfolio-card -->
+						<div class="portfolio-card isotope-item photo">
+							<div class="portfolio-card-body">
+								<div class="portfolio-card-header">
+									<img src="assets/images/busing/p19.jpeg" alt="">
+								</div>
+								<div class="portfolio-card-footer">
+									<a class="full-screen" href="assets/images/busing/p19.jpeg" data-fancybox="portfolio" data-caption="Green Tree"><i class="ti-fullscreen"></i></a>
+									<h6 class="info-title"><a href="#" title="">Caminos</a></h6>
+									<p>Donde fué?</p>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio-card isotope-item photo">
+							<div class="portfolio-card-body">
+								<div class="portfolio-card-header">
+									<img src="assets/images/busing/p20.jpeg" alt="">
+								</div>
+								<div class="portfolio-card-footer">
+									<a class="full-screen" href="assets/images/busing/p20.jpeg" data-fancybox="portfolio" data-caption="Green Tree"><i class="ti-fullscreen"></i></a>
+									<h6 class="info-title"><a href="#" title="">Maquinaria</a></h6>
+									<p>Donde fué?</p>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio-card isotope-item photo">
+							<div class="portfolio-card-body">
+								<div class="portfolio-card-header">
+									<img src="assets/images/busing/p21.jpeg" alt="">
+								</div>
+								<div class="portfolio-card-footer">
+									<a class="full-screen" href="assets/images/busing/p21.jpeg" data-fancybox="portfolio" data-caption="Green Tree"><i class="ti-fullscreen"></i></a>
+									<h6 class="info-title"><a href="#" title="">Nivelación</a></h6>
+									<p>Donde fué?</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- portfolio wrap -->
+				
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- =======================
+	Portfolio -->
+
+	<!-- =======================
+	footer  -->
+	<footer class="footer bg-light pt-6">
+		<div class="footer-content pb-3">
+			<div class="container">
+				<div class="row">
+					<!-- Footer widget 1 -->
+					<div class="col-md-4">
+						<div class="widget">
+							<a class="navbar-brand pt-0 pb-0" href="index.html">
+								<!-- SVG Logo Start -->
+								<img src="assets/images/busing/logobusing.png" width="300"
+									class="d-inline-block align-top logotipo" alt="">
+								<!-- SVG Logo End -->
+							</a>
+						</div>
+					</div>
+
+					<!-- Footer widget 2 -->
+					<div class="col-md-3 col-sm-6">
+						<div class="widget address"
+							style="background-image: url('assets/images/world-map.png'); background-position: 50% 20px; background-repeat: no-repeat; background-size: contain;">
+							<ul class="list-unstyled">
+								<li class="media mb-3"><i class="mr-3 display-8 ti-map-alt"></i>Calle Esmeralda #334.
+								</li>
+								<li class="media mb-3"><i class="mr-3 display-8 ti-headphone-alt"></i> (+569) 933017558
+								</li>
+								<li class="media mb-3"><i class="mr-3 display-8 ti-email"></i> contacto@busing.cl</li>
+								<li class="media mb-3"><i class="mr-3 display-8 ti-time"></i>
+									<p>
+										Lun - vie: <strong>09:00 - 21:00</strong>
+									</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- Footer widget 3 -->
+					<div class="col-md-2 col-sm-6">
+						<div class="widget">
+							<h6>Acceso Directo</h6>
+							<ul class="nav flex-column primary-hover">
+								<li class="nav-item"><a class="nav-link" href="indexhtml">Inicio</a></li>
+								<li class="nav-item"><a class="nav-link" href="service.html">Aserca de Nosotros</a></li>
+								<li class="nav-item"><a class="nav-link" href="service.html">Servicios</a></li>
+								<li class="nav-item"><a class="nav-link" href="contact.html">Contactenos</a>
+								</li>
+								<li class="nav-item"><a class="nav-link"
+										href="portfolio-grid-column-4.html">Portfolio</a></li>
+							</ul>
+						</div>
+					</div>
+					<!-- Footer widget 4 -->
+					<div class="col-md-3">
+						<div class="widget bg-grad p-4 all-text-white border-radius-3">
+							<h3>"Tu socio en terreno"</h3>
+							<p>Un equipo especializado y maquinaria propia.</p>
+						</div>
+					</div>
+				</div>
+				<!-- Footer widget 4 -->
+			</div>
+		</div>
+		<div class="divider mt-3"></div>
+		<!--footer copyright -->
+		<div class="footer-copyright py-3">
+			<div class="container">
+				<div class="d-md-flex justify-content-between align-items-center py-3 text-center text-md-left">
+					<!-- copyright text -->
+					<div class="copyright-text">©2019 Full Disain <a href="#!"> JANEX.</a></div>
+					<!-- copyright links-->
+
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<div> <a href="#" class="back-top btn btn-grad"><i class="ti-angle-up"></i></a> </div>
+
+	<!--Global JS-->
+	<script src="assets/vendor/jquery/jquery.min.js"></script>
+	<script src="assets/vendor/popper.js/umd/popper.min.js"></script>
+	<script src="assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="assets/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+	<!--Vendors-->
+	<script src="assets/vendor/fancybox/js/jquery.fancybox.min.js"></script>
+	<script src="assets/vendor/owlcarousel/js/owl.carousel.min.js"></script>
+	<script src="assets/vendor/swiper/js/swiper.js"></script>
+	<script src="assets/vendor/wow/wow.min.js"></script>
+	<script src="assets/vendor/jarallax/jarallax.min.js"></script>
+	<script src="assets/vendor/jarallax/jarallax-video.min.js"></script>
+	<script src="assets/vendor/wavify/wavify.js"></script>
+	<script src="assets/vendor/wow/wow.js"></script>
+	<script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+	<script src="assets/vendor/isotope/isotope.pkgd.min.js"></script>
+
+
+	<!--Template Functions-->
+	<script src="assets/js/functions.js"></script>
+	<script src="busing.js"></script>
+
+</body>
+
+
+</html>

@@ -1,0 +1,826 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+	<title>Busing</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Webestica.com">
+	<meta name="description" content="Creative Multipurpose Bootstrap Template">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="assets/images/favicon.ico">
+
+	<!-- Google Font -->
+	<link
+		href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900%7CPlayfair+Display:400,400i,700,700i%7CRoboto:400,400i,500,700"
+		rel="stylesheet">
+
+	<!-- Plugins CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="assets/vendor/themify-icons/css/themify-icons.css" />
+	<link rel="stylesheet" type="text/css" href="assets/vendor/animate/animate.min.css" />
+	<link rel="stylesheet" type="text/css" href="assets/vendor/fancybox/css/jquery.fancybox.min.css" />
+	<link rel="stylesheet" type="text/css" href="assets/vendor/owlcarousel/css/owl.carousel.min.css" />
+	<link rel="stylesheet" type="text/css" href="assets/vendor/swiper/css/swiper.min.css" />
+
+	<!-- Theme CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+	<style>
+		.t {
+			border: 1px solid red;
+		}
+
+		#menu-item {
+			font-size: 16px;
+		}
+
+		/* Small devices (landscape phones, 576px and up) */
+		@media screen and (max-width: 480px) {
+			.logotipo {
+				width: 200px;
+			}
+		}
+	</style>
+
+</head>
+
+<body>
+	<div class="preloader">
+		<img src="assets/images/preloader.svg" alt="Pre-loader">
+	</div>
+
+	<!-- =======================
+	header Start-->
+	<header class="header-static navbar-sticky navbar-light">
+		<!-- Search -->
+		<div class="top-search collapse bg-light" id="search-open" data-parent="#search">
+			<div class="container">
+				<div class="row position-relative">
+					<div class="col-md-8 mx-auto py-5">
+						<form>
+							<div class="input-group">
+								<input class="form-control border-radius-right-0 border-right-0" type="text"
+									name="search" autofocus placeholder="Que estás buscando?">
+								<button type="button" class="btn btn-grad border-radius-left-0 mb-0">Buscar</button>
+							</div>
+						</form>
+						<!-- <p class="small mt-2 mb-0"><strong></strong>Ingresa una palabra</p> -->
+					</div>
+					<a class="position-absolute top-0 right-0 mt-3 mr-3" data-toggle="collapse" href="#search-open"><i
+							class="fa fa-window-close"></i></a>
+				</div>
+			</div>
+		</div>
+		<!-- End Search -->
+
+		<!-- Navbar top start-->
+		<div class="navbar-top d-none d-lg-block">
+			<div class="container">
+				<div class="d-flex justify-content-between align-items-center">
+					<!-- navbar top Left-->
+					<div class="d-flex align-items-center">
+						<!-- Top info -->
+						<ul class="nav list-unstyled">
+							<li class="nav-item mr-3">
+								<a class="navbar-link" href="#"
+									id="menu-item"><strong>Teléfono:</strong>(+569)33017558</a>
+							</li>
+							<li class="nav-item mr-3">
+								<a class="navbar-link" href="#"
+									id="menu-item"><strong>Correo:</strong>contacto@busing.cl</a>
+							</li>
+						</ul>
+					</div>
+
+					<!-- navbar top Right-->
+					<div class="d-flex align-items-center">
+						<!-- top link -->
+						<ul class="nav">
+							<li class="nav-item">
+								<a class="nav-link" href="contact.html" id="menu-item">Contacto</a>
+							</li>
+						</ul>
+						<!-- top social -->
+						<ul class="social-icons">
+							<li class="social-icons-item social-facebook m-0">
+								<a class="social-icons-link w-auto px-2" href="#" id="menu-item"><i
+										class="fa fa-facebook"></i></a>
+							</li>
+							<li class="social-icons-item social-instagram m-0">
+								<a class="social-icons-link w-auto px-2" href="#" id="menu-item"><i
+										class="fa fa-instagram"></i></a>
+							</li>
+							<li class="social-icons-item social-twitter m-0">
+								<a class="social-icons-link w-auto pl-2" href="#" id="menu-item"><i
+										class="fa fa-twitter"></i></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Navbar top End-->
+
+		<!-- Logo Nav Start -->
+		<nav class="navbar navbar-expand-lg">
+			<div class="container">
+				<!-- Logo -->
+				<a class="navbar-brand pt-0 pb-0" href="index.html">
+					<!-- SVG Logo Start -->
+					<img src="assets/images/busing/logobusing.png" width="300" class="d-inline-block align-top logotipo"
+						alt="">
+					<!-- SVG Logo End -->
+				</a>
+				<!-- Menu opener button -->
+				<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+					data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"> </span>
+				</button>
+				<!-- Main Menu Start -->
+				<div class="collapse navbar-collapse" id="navbarCollapse">
+					<ul class="navbar-nav ml-md-auto text-center">
+						<a href="index.html" class="nav-link" id="menu-item">Inicio</a>
+						<a href="about.html" class="nav-link" id="menu-item">Sobre nosotros</a>
+						<a href="services.html" class="nav-link" id="menu-item">Servicios</a>
+						<a href="contact.html" class="nav-link" id="menu-item">Contacto</a>
+					</ul>
+				</div>
+				<!-- Main Menu End -->
+				<div class="navbar-nav">
+					<!-- item Search-->
+					<div class="nav-item search border-0 pl-3 pr-0 px-lg-2" id="search">
+						<a class="nav-link" data-toggle="collapse" href="#search-open" id="menu-item"><i
+								class="ti-search"> </i></a>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- =======================
+	header End-->
+
+	<!-- =======================
+	Main Banner -->
+	<section class="p-0">
+		<div class="swiper-container height-700-responsive swiper-arrow-hover swiper-slider-fade">
+			<div class="swiper-wrapper">
+				<!-- slide 1-->
+				<div class="swiper-slide bg-overlay-dark-2"
+					style="background-image:url(assets/images/busing/portada1.jpg); background-position: center center; background-size: cover;">
+					<div class="container h-100">
+						<div class="row d-flex h-100">
+							<div
+								class="col-lg-8 col-xl-6 mr-auto slider-content justify-content-center align-self-center align-items-start text-left">
+								<h2
+									class="animated fadeInUp dealy-500 display-6 display-md-4 display-lg-3 font-weight-bold text-white">
+									Somos tu socio en terreno</h2>
+								<h3
+									class="animated fadeInUp dealy-1000 text-white display-8 display-md-7 alt-font font-italic mb-2 my-md-4">
+									Un equipo especializado y maquinaria propia, en definitiva somos los profesionales
+									que necesitas</h3>
+								<div class="animated fadeInUp mt-3 dealy-1500"><a href="contact.html"
+										class="btn btn-outline-warning">Contáctanos</a> <a href="services.html"
+										class="btn btn-link text-white">Ve nuestros servicios</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- slide 2-->
+				<div class="swiper-slide bg-overlay-dark-2"
+					style="background-image:url(assets/images/busing/portada2.jpg); background-position: center top; background-size: cover;">
+					<div class="container h-100">
+						<div class="row d-flex h-100">
+							<div class="col-md-8 justify-content-center align-self-center align-items-start mx-auto">
+								<div class="slider-content text-center ">
+									<h3
+										class="animated fadeInUp dealy-500 display-8 display-md-7 text-white alt-font font-italic">
+										Trabajamos en todos los procesos de movimiento de tierra</h3>
+									<h2
+										class="animated fadeInUp dealy-1000 display-6 display-md-4 display-lg-3 font-weight-bold text-white">
+										Somos los mejores. Su proyecto, nuestro compromiso</h2>
+									<div class="animated fadeInUp mt-3 dealy-1500"><a href="contact.html"
+											class="btn btn-outline-warning">Contáctanos</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Slider buttons -->
+			<div class="swiper-button-next"><i class="ti-angle-right"></i></div>
+			<div class="swiper-button-prev"><i class="ti-angle-left"></i></div>
+			<div class="swiper-pagination"></div>
+		</div>
+	</section>
+	<!-- =======================
+        Main banner -->
+
+	<!-- =======================
+        about us  -->
+	<section>
+		<div class="container">
+			<div class="row justify-content-between align-items-center">
+				<!-- left -->
+				<div class="col-md-6">
+					<div class="row mt-4 mt-md-0">
+						<div class="col-5 offset-1 px-2 mb-3 align-self-end">
+							<img class="border-radius-3 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s"
+								src="assets/images/busing/portadaServicio1.jpg" alt="">
+						</div>
+						<div class="col-6 px-2 mb-3">
+							<img class="border-radius-3 wow fadeInRight" data-wow-duration="0.8s" data-wow-delay="0.6s"
+								src="assets/images/busing/portadaServicio2.jpg" alt="">
+						</div>
+						<div class="col-7 px-2 mb-3">
+							<div class="border-radius-3 wow fadeInLeft bg-grad p-2 p-sm-3 p-lg-4 p-xl-5 all-text-white"
+								data-wow-duration="0.8s" data-wow-delay="0s">
+								<span>Nuestro objetivo:</span>
+								<h3 class="font-weight-bold">"Procesos de movimiento de tierras eficaz"</h3>
+							</div>
+						</div>
+						<div class="col-5 align-self-start pl-2 mb-3">
+							<img class="border-radius-3 wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.2s"
+								src="assets/images/busing/portadaServicio3.jpg" alt="">
+						</div>
+					</div>
+				</div>
+				<!-- right -->
+				<div class="col-md-6 pl-lg-5">
+					<h2 class="h1">Confía en nosotros, somos tu solución.</h2>
+					<p class="lead">Cada proyecto es analizado y planificado por un especializado equipo técnico que
+						determina y optimiza todos los procesos de <abbr title="title">movimientos de tierras de acuerdo
+							a las necesidades de cada cliente.</abbr></p>
+					<p> El mantenimiento preventivo en cada etapa de desarrollo del proyecto con el fin de mantener su
+						seguridad, rendimiento y producción, proporcionando de esta forma la mayor disponibilidad
+						mecánica posible.</p>
+					<div>
+						<a href="contact.html" class="btn btn-dark">Contáctanos</a>
+						<a href="services.html" class="btn btn-link">Nuestros trabajos</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- =======================
+        about us  -->
+
+	<!-- =======================
+        why-us -->
+	<section class="why-us p-0">
+		<div class="container">
+			<div class="row no-gutters">
+				<!--why us left-->
+				<div class="col-lg-6 d-none d-lg-block bg-light"
+					style="background:url(assets/images/busing/portadaServicio4.jpeg) no-repeat; background-size:cover;">
+				</div>
+				<!--why us right-->
+				<div class="col-lg-6 col-md-12 bg-grad px-4 py-5 p-lg-5 all-text-white">
+					<div class="h-100">
+						<div class="title text-left p-0">
+							<span class="pre-title">Porqué elegirnos sobre los demás?</span>
+							<h2>Nosotros realizamos las mejores soluciones que tu proyecto necesita!</h2>
+							<p>Somos una empresa que presenta las máximas garantías cuando de adaptarse a proyectos se
+								trata, ofrecemos a nuestros clientes un servicio efectivo y profesional a las
+								actividades más comunes de excavación y transporte de material.</p>
+						</div>
+						<div class="row">
+							<div class="col">
+								<ul class="list-group list-group-borderless text">
+									<li class="list-group-item text-white"><i class="fa fa-check"></i>Movimiento de
+										tierra en general</li>
+									<li class="list-group-item text-white"><i class="fa fa-check"></i>Construcción de
+										canales</li>
+									<li class="list-group-item text-white"><i class="fa fa-check"></i>Limpieza de pilas
+										de lixiviación</li>
+									<li class="list-group-item text-white"><i class="fa fa-check"></i>Transporte y
+										logística</li>
+								</ul>
+							</div>
+							<div class="col">
+								<ul class="list-group list-group-borderless text">
+									<li class="list-group-item text-white"><i class="fa fa-check"></i>Encauzamiento de
+										ríos</li>
+									<li class="list-group-item text-white"><i class="fa fa-check"></i>Enrocado de
+										canales</li>
+									<li class="list-group-item text-white"><i class="fa fa-check"></i>Construcción de
+										caminos</li>
+									<li class="list-group-item text-white"><i class="fa fa-check"></i>Nivelación de
+										terrenos</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- why-us
+        =======================  -->
+
+	<!-- =======================
+        service -->
+	<section class="service">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-lg-8 mx-auto">
+					<div class="title text-center">
+						<span class="pre-title">Conoce más sobre nosotros</span>
+						<h2>Trabajamos con los mejores profesionales de la región</h2>
+						<p class="mb-0">Somos una empresa dedicada y especializada en servicios de movimientos de tierra
+							en general. </p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 mt-30">
+					<div class="feature-box f-style-2 icon-grad h-100">
+						<div class="feature-box-icon"><i class="ti-save-alt"></i></div>
+						<h3 class="feature-box-title">Historia</h3>
+						<p class="feature-box-desc">Nuestros ingenieros y transportistas le brindarán el mejor
+							asesoramiento y la mejor alternativa sobre cualquier incidencia que pudiese suponer un
+							retraso sobre los tiempos de entrega previstos.</p>
+						<a class="mt-3" href="#">Conocer más</a>
+					</div>
+				</div>
+				<div class="col-md-4 mt-30">
+					<div class="feature-box f-style-2 icon-grad h-100">
+						<div class="feature-box-icon"><i class="ti-ruler-pencil"></i></div>
+						<h3 class="feature-box-title">Experiencia</h3>
+						<p class="feature-box-desc">Realizamos movimiento de tierras, nuestra amplia experiencia nos
+							permite proveer servicios de alta calidad y valor añadido en proyectos de minería y obras
+							civiles. Estamos orgullosos de nuestro equipo humano, unido por valores como seguridad,
+							responsabilidad y satisfacción por un un gran trabajo realizado.</p>
+						<a class="mt-3" href="#">Conocer más</a>
+					</div>
+				</div>
+				<div class="col-md-4 mt-30">
+					<div class="feature-box f-style-2 icon-grad h-100">
+						<div class="feature-box-icon"><i class="ti-agenda"></i></div>
+						<h3 class="feature-box-title">Servicios</h3>
+						<p class="feature-box-desc">Somos una empresa que presenta las máximas garantías cuando de
+							adaptarse a proyectos se trata, ofrecemos a nuestros clientes un servicio efectivo y
+							profesional a las actividades más comunes de excavación y transporte de material. </p>
+						<a class="mt-3" href="#">Conocer más</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- =======================
+        service -->
+
+	<!-- =======================
+        action box -->
+	<!-- <section class="p-0">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-12">
+                        <div class="bg-dark border-radius-3 py-3 all-text-white">
+                            <h2 class="alt-font p-2 p-sm-5 text-center">"Hi there! We are creating smart websites. Partnering with 500+ Fortune companies and mid-sized firms across enterprises. We create websites that have it all: Beauty and Brains. "</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+	<!-- =======================
+        action box -->
+
+	<!-- =======================
+        portfolio -->
+	<section class="portfolio pb-0">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-lg-7 mx-auto">
+					<!-- title -->
+					<div class="title text-center">
+						<span class="pre-title">Revisa algunos de nuestros últimos trabajos.</span>
+						<h2>Nuestro portafolio: Resultados eficientes</h2>
+						<p class="mb-0">Nuestra cartera muestra nuestro arduo trabajo y dedicación para ayudar a
+							nuestros clientes a tener éxito. No solo confíe en nuestra palabra. Mira el último trabajo.
+						</p>
+					</div>
+				</div>
+				<div class="col-md-12 p-0">
+					<div class="portfolio-wrap grid items-3 items-padding">
+						<!-- portfolio-card -->
+						<div class="portfolio-card isotope-item digital">
+							<div class="portfolio-card-body">
+								<div class="portfolio-card-header">
+									<img src="assets/images/busing/p22.jpeg" alt="">
+								</div>
+								<div class="portfolio-card-footer">
+									<a class="full-screen" href="assets/images/busing/portafolioSubsolado.jpeg"
+										data-fancybox="portfolio" data-caption="Waiting window"><i
+											class="ti-fullscreen"></i></a>
+									<h6 class="info-title"><a href="#" title="">Nivelación extracción y remoción de caliche, canchones, todo tipo de suelos.</a></h6>
+									
+								</div>
+							</div>
+						</div>
+						<div class="portfolio-card isotope-item digital">
+							<div class="portfolio-card-body">
+								<div class="portfolio-card-header">
+									<img src="assets/images/busing/p23.jpeg" alt="">
+								</div>
+								<div class="portfolio-card-footer">
+									<a class="full-screen" href="assets/images/busing/portafolioSubsolado.jpeg"
+										data-fancybox="portfolio" data-caption="Waiting window"><i
+											class="ti-fullscreen"></i></a>
+									<h6 class="info-title"><a href="#" title="">Nivelación extracción y remoción de caliche, canchones, todo tipo de suelos.</a></h6>
+									
+								</div>
+							</div>
+						</div>
+						<div class="portfolio-card isotope-item digital">
+							<div class="portfolio-card-body">
+								<div class="portfolio-card-header">
+									<img src="assets/images/busing/p24.jpeg" alt="">
+								</div>
+								<div class="portfolio-card-footer">
+									<a class="full-screen" href="assets/images/busing/portafolioSubsolado.jpeg"
+										data-fancybox="portfolio" data-caption="Waiting window"><i
+											class="ti-fullscreen"></i></a>
+									<h6 class="info-title"><a href="#" title="">Nivelación extracción y remoción de caliche, canchones, todo tipo de suelos.</a></h6>
+									
+								</div>
+							</div>
+						</div>
+						<div class="portfolio-card isotope-item digital">
+							<div class="portfolio-card-body">
+								<div class="portfolio-card-header">
+									<img src="assets/images/busing/p25.jpeg" alt="">
+								</div>
+								<div class="portfolio-card-footer">
+									<a class="full-screen" href="assets/images/busing/portafolioSubsolado.jpeg"
+										data-fancybox="portfolio" data-caption="Waiting window"><i
+											class="ti-fullscreen"></i></a>
+									<h6 class="info-title"><a href="#" title="">Nivelación extracción y remoción de caliche, canchones, todo tipo de suelos.</a></h6>
+									
+								</div>
+							</div>
+						</div>
+						<div class="portfolio-card isotope-item digital">
+							<div class="portfolio-card-body">
+								<div class="portfolio-card-header">
+									<img src="assets/images/busing/p26.jpeg" alt="">
+								</div>
+								<div class="portfolio-card-footer">
+									<a class="full-screen" href="assets/images/busing/portafolioSubsolado.jpeg"
+										data-fancybox="portfolio" data-caption="Waiting window"><i
+											class="ti-fullscreen"></i></a>
+									<h6 class="info-title"><a href="#" title="">Nivelación extracción y remoción de caliche, canchones, todo tipo de suelos.</a></h6>
+									
+								</div>
+							</div>
+						</div>
+						<div class="portfolio-card isotope-item digital">
+							<div class="portfolio-card-body">
+								<div class="portfolio-card-header">
+									<img src="assets/images/busing/p27.jpeg" alt="">
+								</div>
+								<div class="portfolio-card-footer">
+									<a class="full-screen" href="assets/images/busing/portafolioSubsolado.jpeg"
+										data-fancybox="portfolio" data-caption="Waiting window"><i
+											class="ti-fullscreen"></i></a>
+									<h6 class="info-title"><a href="#" title="">Nivelación extracción y remoción de caliche, canchones, todo tipo de suelos.</a></h6>
+									
+								</div>
+							</div>
+						</div>
+                
+						<!-- portfolio-card -->
+						<div class="portfolio-card isotope-item digital">
+							<div class="portfolio-card-body">
+								<div class="portfolio-card-header">
+									<img src="assets/images/busing/portafolioSubsolado.jpeg" alt="">
+								</div>
+								<div class="portfolio-card-footer">
+									<a class="full-screen" href="assets/images/busing/portafolioSubsolado.jpeg"
+										data-fancybox="portfolio" data-caption="Waiting window"><i
+											class="ti-fullscreen"></i></a>
+									<h6 class="info-title"><a href="#" title="">Subsolados y terrazas</a></h6>
+									
+								</div>
+							</div>
+						</div>
+						<!-- portfolio-card -->
+						<div class="portfolio-card isotope-item digital marketing">
+							<div class="portfolio-card-body">
+								<div class="portfolio-card-header">
+									<img src="assets/images/busing/portafolioNivelacion.jpeg" alt="">
+								</div>
+								<div class="portfolio-card-footer">
+									<a class="full-screen" href="assets/images/busing/portafolioNivelacion.jpeg"
+										data-fancybox="portfolio" data-caption="Green Book"><i
+											class="ti-fullscreen"></i></a>
+									<h6 class="info-title"><a href="#" title="">Nivelación de terrenos</a></h6>
+									
+								</div>
+							</div>
+						</div>
+						<!-- portfolio-card -->
+						<div class="portfolio-card isotope-item digital">
+							<div class="portfolio-card-body">
+								<div class="portfolio-card-header">
+									<img src="assets/images/busing/portafolioEncauzamiento.jpeg" alt="">
+								</div>
+								<div class="portfolio-card-footer">
+									<a class="full-screen" href="assets/images/busing/portafolioEncauzamiento.jpeg"
+										data-fancybox="portfolio" data-caption="Reebok Sneakers"><i
+											class="ti-fullscreen"></i></a>
+									<h6 class="info-title"><a href="#" title="">Encauzamiento de ríos</a></h6>
+									
+								</div>
+							</div>
+						</div>
+						<!-- portfolio-card -->
+						<div class="portfolio-card isotope-item digital">
+							<div class="portfolio-card-body">
+								<div class="portfolio-card-header">
+									<img src="assets/images/busing/portafolioCanales.jpg" alt="">
+								</div>
+								<div class="portfolio-card-footer">
+									<a class="full-screen" href="assets/images/busing/portafolioCanales.jpg"
+										data-fancybox="portfolio" data-caption="Parking garage"><i
+											class="ti-fullscreen"></i></a>
+									<h6 class="info-title"><a href="#" title="">Enrocado y construcción de canales</a>
+									</h6>
+									
+								</div>
+							</div>
+						</div>
+						<!-- portfolio-card -->
+						<div class="portfolio-card isotope-item digital marketing photo">
+							<div class="portfolio-card-body">
+								<div class="portfolio-card-header">
+									<img src="assets/images/busing/portafolioCamino.jpeg" alt="">
+								</div>
+								<div class="portfolio-card-footer">
+									<a class="full-screen" href="assets/images/busing/portafolioCamino.jpeg"
+										data-fancybox="portfolio" data-caption="The Pink Chair"><i
+											class="ti-fullscreen"></i></a>
+									<h6 class="info-title"><a href="#" title="">Construcción de caminos</a></h6>
+									
+								</div>
+							</div>
+						</div>
+						
+						<!-- portfolio-card -->
+						<div class="portfolio-card isotope-item digital">
+							<div class="portfolio-card-body">
+								<div class="portfolio-card-header">
+									<img src="assets/images/busing/portafolioTransporte.jpeg" alt="">
+								</div>
+								<div class="portfolio-card-footer">
+									<a class="full-screen" href="assets/images/busing/portafolioTransporte.jpeg"
+										data-fancybox="portfolio" data-caption="Waiting window"><i
+											class="ti-fullscreen"></i></a>
+									<h6 class="info-title"><a href="#" title="">Subsolados y terrazas</a></h6>
+									
+								</div>
+							</div>
+						</div>
+						
+						
+					</div>
+					<!-- portfolio wrap -->
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- =======================
+        portfolio -->
+
+	<!-- =======================
+        client -->
+	<!-- <section class="client pt-5 ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="owl-carousel owl-grab arrow-hover arrow-gray" data-margin="80" data-arrow="true" data-dots="false" data-items-xl="6" data-items-lg="5" data-items-md="4" data-items-sm="3" data-items-xs="2" data-autoplay="3000">
+                            <div class="item">Logo1<img src="assets/images/clients/01.png" alt=""></div>
+                            <div class="item">Logo2<img src="assets/images/clients/02.png" alt=""></div>
+                            <div class="item">Logo3<img src="assets/images/clients/03.png" alt=""></div>
+                            <div class="item">Logo4<img src="assets/images/clients/04.png" alt=""></div>
+                            <div class="item">Logo5<img src="assets/images/clients/05.png" alt=""></div>
+                            <div class="item">Logo6<img src="assets/images/clients/06.png" alt=""></div>
+                            <div class="item">Logo7<img src="assets/images/clients/07.png" alt=""></div>
+                            <div class="item">logo8<img src="assets/images/clients/08.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+	<!-- =======================
+        client -->
+
+	<!-- =======================
+        blog -->
+	<section class="blog">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-lg-8 mx-auto mt-2">
+					<div class="title text-center">
+						<span class="pre-title">Revise la experiencia que nuestros clientes con nosostros.</span>
+						<h2>Lea los comentarios de nuestros clientes</h2>
+						<p class="mb-0">Esta sección muestra nuestra labor para cumplir las espectativas de nuestros
+							clientes</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="owl-carousel arrow-dark arrow-hover" data-dots="false" data-items-xl="3"
+						data-items-lg="3" data-items-md="2" data-items-sm="2" data-items-xs="1" data-autoplay="4000"
+						data-pause="false">
+						<!-- post -->
+						<div class="item">
+							<div class="post">
+								<div class="post-info">
+									<span class="post-tag bg-grad text-white mb-3 clearfix"><a
+											href="#!">Empresa</a></span>
+									<div class="post-author"><a href="#!">Por, Compañía 1</a></div>,
+									<div class="post-time"><a href="#!">26 de octubre, 2019</a></div>
+									<a class="post-title" href="#!">Todo lo que dijeron que harían, mucho mejor.</a>
+									<p class="mb-0">Mi experiencia fué positiva, se cumplieron los plazos, se hizo como
+										se dijo.</p>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="post">
+								<div class="post-info">
+									<span class="post-tag bg-grad text-white mb-3 clearfix"><a
+											href="#!">Empresa</a></span>
+									<div class="post-author"><a href="#!"> Por, Compañía 2</a></div>,
+									<div class="post-time"><a href="#!">26 de octubre, 2019</a></div>
+									<a class="post-title" href="#!">Todo lo que dijeron que harían, mucho mejor.</a>
+									<p class="mb-0">Mi experiencia fué positiva, se cumplieron los plazos, se hizo como
+										se dijo.</p>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="post">
+								<div class="post-info">
+									<span class="post-tag bg-grad text-white mb-3 clearfix"><a
+											href="#!">Empresa</a></span>
+									<div class="post-author"><a href="#!"> Por, Compañía 3</a></div>,
+									<div class="post-time"><a href="#!">26 de octubre, 2019</a></div>
+									<a class="post-title" href="#!">Todo lo que dijeron que harían, mucho mejor.</a>
+									<p class="mb-0">Mi experiencia fué positiva, se cumplieron los plazos, se hizo como
+										se dijo.</p>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="post">
+								<div class="post-info">
+									<span class="post-tag bg-grad text-white mb-3 clearfix"><a
+											href="#!">Empresa</a></span>
+									<div class="post-author"><a href="#!"> Por, Indura</a></div>,
+									<div class="post-time"><a href="#!">25 de mayo, 2018</a></div>
+									<a class="post-title" href="#!">Todo lo que dijeron que harían, mucho mejor.</a>
+									<p class="mb-0">Mi experiencia fué positiva, se cumplieron los plazos, se hizo como
+										se dijo.</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- =======================
+        blog -->
+
+	<!-- =======================
+        call to action-->
+	<section class="p5-4">
+		<div class="container">
+			<div class="d-block d-md-flex bg-grad p-4 p-sm-5 all-text-white border-radius-3 pattern-overlay-3">
+				<div class="align-self-center text-center text-md-left">
+					<h3>Por la experiencia y la expectativas de nuestros clientes, somos los mejores</h3>
+					<p class="m-0">Nosotros proporcionamos soluciones de movimiento de tierra, transporte y logística,
+						contamos con maquinaria propia</p>
+				</div>
+				<div class="mt-3 mt-md-0 text-center text-md-right ml-md-auto align-self-center">
+					<a href="contact.html" class="btn btn-white mb-0">Contáctanos</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- =======================
+        call to action-->
+
+
+	<!-- =======================
+	footer  -->
+	<footer class="footer bg-light pt-6">
+		<div class="footer-content pb-3">
+			<div class="container">
+				<div class="row">
+					<!-- Footer widget 1 -->
+					<div class="col-md-4">
+						<div class="widget">
+							<a class="navbar-brand pt-0 pb-0" href="index.html">
+								<!-- SVG Logo Start -->
+								<img src="assets/images/busing/logobusing.png" width="300"
+									class="d-inline-block align-top logotipo" alt="">
+								<!-- SVG Logo End -->
+							</a>
+						</div>
+					</div>
+
+					<!-- Footer widget 2 -->
+					<div class="col-md-3 col-sm-6">
+						<div class="widget address"
+							style="background-image: url('assets/images/world-map.png'); background-position: 50% 20px; background-repeat: no-repeat; background-size: contain;">
+							<ul class="list-unstyled">
+								<li class="media mb-3"><i class="mr-3 display-8 ti-map-alt"></i>Calle Esmeralda #334.
+								</li>
+								<li class="media mb-3"><i class="mr-3 display-8 ti-headphone-alt"></i> (+569) 933017558
+								</li>
+								<li class="media mb-3"><i class="mr-3 display-8 ti-email"></i> contacto@busing.cl</li>
+								<li class="media mb-3"><i class="mr-3 display-8 ti-time"></i>
+									<p>
+										Lun - vie: <strong>09:00 - 21:00</strong>
+									</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- Footer widget 3 -->
+					<div class="col-md-2 col-sm-6">
+						<div class="widget">
+							<h6>Acceso Directo</h6>
+							<ul class="nav flex-column primary-hover">
+								<li class="nav-item"><a class="nav-link" href="indexhtml">Inicio</a></li>
+								<li class="nav-item"><a class="nav-link" href="service.html">Aserca de Nosotros</a></li>
+								<li class="nav-item"><a class="nav-link" href="service.html">Servicios</a></li>
+								<li class="nav-item"><a class="nav-link" href="contact.html">Contactenos</a>
+								</li>
+								<li class="nav-item"><a class="nav-link"
+										href="portfolio-grid-column-4.html">Portfolio</a></li>
+							</ul>
+						</div>
+					</div>
+					<!-- Footer widget 4 -->
+					<div class="col-md-3">
+						<div class="widget bg-grad p-4 all-text-white border-radius-3">
+							<h3>"Tu socio en terreno"</h3>
+							<p>Un equipo especializado y maquinaria propia.</p>
+						</div>
+					</div>
+				</div>
+				<!-- Footer widget 4 -->
+			</div>
+		</div>
+		<div class="divider mt-3"></div>
+		<!--footer copyright -->
+		<div class="footer-copyright py-3">
+			<div class="container">
+				<div class="d-md-flex justify-content-between align-items-center py-3 text-center text-md-left">
+					<!-- copyright text -->
+					<div class="copyright-text">©2019 Full Disain <a href="#!"> JANEX.</a></div>
+					<!-- copyright links-->
+
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- =======================
+	footer  -->
+
+	<div> <a href="#" class="back-top btn btn-grad"><i class="ti-angle-up"></i></a> </div>
+
+	<!--Global JS-->
+	<script src="assets/vendor/jquery/jquery.min.js"></script>
+	<script src="assets/vendor/popper.js/umd/popper.min.js"></script>
+	<script src="assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="assets/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+	<!--Vendors-->
+	<script src="assets/vendor/fancybox/js/jquery.fancybox.min.js"></script>
+	<script src="assets/vendor/owlcarousel/js/owl.carousel.min.js"></script>
+	<script src="assets/vendor/swiper/js/swiper.js"></script>
+	<script src="assets/vendor/wow/wow.min.js"></script>
+	<script src="assets/vendor/jarallax/jarallax.min.js"></script>
+	<script src="assets/vendor/jarallax/jarallax-video.min.js"></script>
+	<script src="assets/vendor/wavify/wavify.js"></script>
+	<script src="assets/vendor/wow/wow.js"></script>
+
+
+	<!--Template Functions-->
+	<script src="assets/js/functions.js"></script>
+	<script src="busing.js"></script>
+
+</body>
+
+
+</html>
